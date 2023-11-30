@@ -1,0 +1,23 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "ES6",
+        "outDir": "wwwroot/dist",
+        "baseUrl": "./src/",
+        "typeRoots": ["./node_modules/@types"],
+        "paths": {
+            "@assets": ["./assets"],
+            "@components": ["./components"],
+            "@helpers": ["./helpers"]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

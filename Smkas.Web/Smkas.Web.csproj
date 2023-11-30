@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Smkas.Data\Smkas.Data.csproj" />
+    <ProjectReference Include="..\Smkas.Core\Smkas.Core.csproj" />
+  </ItemGroup>
+
+</Project>

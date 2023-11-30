@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smkas.Core", "Smkas.Core\Smkas.Core.csproj", "{9418C5D0-ACAA-4403-9E47-FD388865B7AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smkas.Data", "Smkas.Data\Smkas.Data.csproj", "{3B052CA7-BD7F-469B-B2D8-53400730607A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smkas.Web", "Smkas.Web\Smkas.Web.csproj", "{77CCABB6-AA7D-4D3B-BB5C-F579DA1118FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9418C5D0-ACAA-4403-9E47-FD388865B7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9418C5D0-ACAA-4403-9E47-FD388865B7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9418C5D0-ACAA-4403-9E47-FD388865B7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9418C5D0-ACAA-4403-9E47-FD388865B7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B052CA7-BD7F-469B-B2D8-53400730607A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B052CA7-BD7F-469B-B2D8-53400730607A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B052CA7-BD7F-469B-B2D8-53400730607A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B052CA7-BD7F-469B-B2D8-53400730607A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CCABB6-AA7D-4D3B-BB5C-F579DA1118FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CCABB6-AA7D-4D3B-BB5C-F579DA1118FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CCABB6-AA7D-4D3B-BB5C-F579DA1118FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CCABB6-AA7D-4D3B-BB5C-F579DA1118FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9DA196A-91ED-47C5-B9B5-8DB1679487BC}
+	EndGlobalSection
+EndGlobal
